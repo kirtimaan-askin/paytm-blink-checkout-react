@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kirtimaan-askin/paytm-blink-checkout-react.git"
+    "url": "https://github.com/paytm/paytm-blink-checkout-react.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -38,6 +38,10 @@ jobs:
       - run: npm install
       - run: npm run build-all
       - run: npm run package
+      # Override name and repository only at publish time (not committed) so
+      # GitHub Packages accepts the package and PR to upstream stays clean
+      - run: npm pkg set name "@${{ github.repository_owner }}/paytm-blink-checkout-react"
+      - run: npm pkg set repository.url "git+https://github.com/${{ github.repository }}.git"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
