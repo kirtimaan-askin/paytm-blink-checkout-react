@@ -40,5 +40,12 @@
   },
   "dependencies": {
     "react-dom": "^19.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirtimaan-askin/paytm-blink-checkout-react.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
