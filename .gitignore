@@ -32,4 +32,7 @@ coverage/
 # Optional
 *.tgz
 .cache/
-scripts/publish-gpr.sh
+
+# Local npm auth (script writes then removes; avoid committing if left behind)
+lib/.npmrc
+scripts/*
