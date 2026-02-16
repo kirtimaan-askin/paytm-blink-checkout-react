@@ -32,3 +32,4 @@ coverage/
 # Optional
 *.tgz
 .cache/
+scripts/publish-gpr.sh
